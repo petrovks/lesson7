@@ -1,11 +1,11 @@
 package geekbrains.lesson7;
 
 public class Plate {
+    private int food;
+    
     public int getFood() {
         return food;
     }
-
-    private int food;
 
     public Plate(int food) {
         this.food = food;
