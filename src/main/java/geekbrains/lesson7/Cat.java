@@ -1,12 +1,8 @@
 package geekbrains.lesson7;
 
 public class Cat {
-
-
     private String name;
     private int appetite;
-
-
     private boolean hungry;
 
     public String getName() {
