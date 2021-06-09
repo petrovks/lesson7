@@ -9,11 +9,13 @@ package geekbrains.lesson7;public class Main {
             Plate plate = new Plate(20);
 
             for (Cat c: cats) {
+
                 c.eat(plate);
                 if (!c.isHungry()) {
                 System.out.println(c.getName() + " наелся!");
                 }
                 else System.out.println(c.getName() + " не хватило еды!");
+
         }
     }
 }
